@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Info Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Info Card</h1>
+  </header>
+
+  <main>
+    <section id="intro">
+      <p id="description">Click the button to learn more about me!</p>
+      <button onclick="changeInfo()">Change Info</button>
+    </section>
+
+    <section>
+      <button onclick="toggleBio()">Toggle Bio</button>
+      <div id="bioContainer"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 by Jeff Amayo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

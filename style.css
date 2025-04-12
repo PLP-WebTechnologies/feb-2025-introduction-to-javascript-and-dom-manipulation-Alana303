@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+    background-color: #f4f4f4;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  #bioContainer {
+    margin-top: 20px;
+    color: #555;
+  }
+  
